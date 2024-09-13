@@ -1,0 +1,159 @@
+/*-------------------------------------------Background Image---------------------------------------------*/
+#bg {
+    width: 100%;
+    height: auto;
+}
+
+/*-------------------------------------------Title Animation---------------------------------------------*/
+/* Comment if using Slide keyframe */
+.add-animation-zoom {
+    /* animation: zoomBounce 0.3s ease; */
+    animation: zoomOut 0.3s ease;
+}
+
+/* Comment all if using Zoomout keyframe */
+.add-animation {
+    animation: frmslideLeft 0.3s ease;
+    /* animation: frmslideRight 0.3s ease; */
+}
+
+/* Comment all if using Zoomout keyframe */
+.exit-animation {
+    animation: toslideRight 0.3s ease;
+    /* animation: toslideLeft 0.3s ease; */
+}
+
+/*-------------------------------------------Redirect Button---------------------------------------------*/
+.redirect-btn {
+    top: 34%;
+}
+
+.redirect-btn img {
+    width: 45%;
+    animation: pulse 0.7s infinite linear;
+}
+
+/*-------------------------------------------Keyframe Animation---------------------------------------------*/
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes zoomOut {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    35% {
+        transform: scale(0.9);
+        opacity: 0.5;
+    }
+
+    65% {
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomBounce {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    35% {
+        transform: scale(0.7);
+        opacity: 0.5;
+    }
+
+    55% {
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+
+    65% {
+        transform: scale(0.8);
+        opacity: 0.8;
+    }
+
+    85% {
+        transform: scale(1.2);
+        opacity: 0.9;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes frmslideLeft {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes toslideRight {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+}
+
+@keyframes frmslideRight {
+    0% {
+        transform: translateX(60%);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes toslideLeft {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(-60%);
+        opacity: 0;
+    }
+}
+
+/*-------------------------------------------Multi Device Screen Size---------------------------------------------*/
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #bg {
+        height: 100vh;
+    }
+}

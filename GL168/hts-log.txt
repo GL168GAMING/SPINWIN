@@ -1,0 +1,17 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 13 Sep 2024 20:26:14 at https://eluarise.biz/?fbclid=IwY2xjawFQ_z9leHRuA2FlbQEwAAEdWqbwCCPM84PmJ6wlzb9TkLuGAB0cGKdfDpyAfc3QvpuxrN3P00Kpp4ch_aem_K1aCnYxvwi2o0LDVVY0Zfg +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://eluarise.biz/?fbclid=IwY2xjawFQ_z9leHRuA2FlbQEwAAEdWqbwCCPM84PmJ6wlzb9TkLuGAB0cGKdfDpyAfc3QvpuxrN3P00Kpp4ch_aem_K1aCnYxvwi2o0LDVVY0Zfg -O1 "C:\Users\user\Desktop\angpao\GL168" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:26:18	Warning: 	warning: file size on disk (36950) does not have the expected size (26836))
+20:26:20	Error: 	"Not Found" (404) at link https://eluarise.biz/a (from https://connect.facebook.net/en_US/fbevents.js)
+20:26:20	Error: 	"Not Found" (404) at link https://eluarise.biz/POST (from https://connect.facebook.net/en_US/fbevents.js)
+20:26:20	Error: 	"Not Found" (404) at link https://eluarise.biz/schema.org/ (from https://connect.facebook.net/en_US/fbevents.js)
+20:26:20	Error: 	"Not Found" (404) at link https://eluarise.biz/b.resolvedLink (from https://connect.facebook.net/en_US/fbevents.js)
+20:26:20	Error: 	"Not Found" (404) at link https://eluarise.biz/signals/iwl.js (from https://connect.facebook.net/en_US/fbevents.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 seconds : 17 links scanned, 11 files written (1538081 bytes overall), 3 files updated [412857 bytes received at 68809 bytes/sec], 463618 bytes transferred using HTTP compression in 2 files, ratio 19%, 2.4 requests per connection
+(5 errors, 1 warnings, 0 messages)
